@@ -1,0 +1,6 @@
+{
+  "name": "BA9I 100 JOURS - BAC",
+  "description": "برنامج 100 يوم للبكالوريا - رفيقك التفاعلي للمراجعة، التكرار المتباعد، مؤقت التركيز، وبطولة الولايات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

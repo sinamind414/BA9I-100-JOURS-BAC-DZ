@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Dune Part Two Poster">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A0E07"/>
+      <stop offset="50%" stop-color="#6B3410"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <radialGradient id="sun7" cx="50%" cy="38%" r="36%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#F59E0B" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1A0E07" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg7)"/>
+  <circle cx="400" cy="175" r="145" fill="url(#sun7)"/>
+  <circle cx="620" cy="95" r="32" fill="#38BDF8" opacity="0.25"/>
+  <path d="M0 320 Q210 245 430 315 T800 290 L800 450 L0 450 Z" fill="#451A03"/>
+  <path d="M0 365 Q280 300 540 360 T800 340 L800 450 L0 450 Z" fill="#1C0B04"/>
+  <circle cx="395" cy="312" r="5" fill="#FDE68A"/>
+  <rect x="392" y="317" width="6" height="18" rx="2" fill="#0F0703"/>
+</svg>

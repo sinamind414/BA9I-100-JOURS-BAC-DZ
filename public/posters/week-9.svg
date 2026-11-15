@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Nimona Cyberpunk Poster">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#190A2B"/>
+      <stop offset="50%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg9)"/>
+  <rect x="70" y="90" width="90" height="360" fill="#0F172A" opacity="0.7"/>
+  <rect x="190" y="140" width="110" height="310" fill="#0F172A" opacity="0.6"/>
+  <rect x="550" y="110" width="130" height="340" fill="#0F172A" opacity="0.7"/>
+  <polygon points="400,70 500,260 445,260 445,380 355,380 355,260 300,260" fill="#F472B6" opacity="0.8"/>
+  <path d="M110 380 L700 110" stroke="#22D3EE" stroke-width="5" opacity="0.7"/>
+</svg>

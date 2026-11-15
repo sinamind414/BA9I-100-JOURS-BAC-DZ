@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Jujutsu Kaisen 0 Poster">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09071A"/>
+      <stop offset="55%" stop-color="#2E1065"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="aura8" cx="50%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#09071A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg8)"/>
+  <circle cx="400" cy="225" r="190" fill="url(#aura8)"/>
+  <circle cx="400" cy="225" r="108" fill="none" stroke="#C084FC" stroke-width="5" stroke-dasharray="16 10"/>
+  <circle cx="400" cy="225" r="76" fill="none" stroke="#22D3EE" stroke-width="3"/>
+  <path d="M180 410 L350 180 L400 225 L460 150 L640 410" fill="none" stroke="#F43F5E" stroke-width="3" opacity="0.55"/>
+</svg>

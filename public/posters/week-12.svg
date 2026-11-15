@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="The Boy and the Heron Poster">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B192C"/>
+      <stop offset="55%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg12)"/>
+  <circle cx="560" cy="120" r="66" fill="#FDE68A" opacity="0.85"/>
+  <path d="M180 280 Q320 140 480 220 Q600 280 680 180" fill="none" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M0 360 Q240 310 500 355 T800 330 L800 450 L0 450 Z" fill="#064E3B"/>
+</svg>

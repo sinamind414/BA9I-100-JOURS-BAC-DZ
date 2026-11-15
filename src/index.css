@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Readex Pro', 'Cairo', system-ui, sans-serif;
+    --font-body: 'Cairo', 'Readex Pro', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #090617;
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes badge-pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.84) translateY(12px);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.03) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes badge-ring-pulse {
+  0% {
+    opacity: 0.65;
+    transform: scale(0.88);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.42);
+  }
+}
+
+@keyframes badge-shine-sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-140%) skewX(-22deg);
+  }
+  35% {
+    opacity: 0.55;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(220%) skewX(-22deg);
+  }
+}
+
+.animate-badge-pop {
+  animation: badge-pop-in 380ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-badge-ring {
+  animation: badge-ring-pulse 1000ms cubic-bezier(0.16, 1, 0.3, 1) 2 forwards;
+}
+
+.animate-badge-shine {
+  animation: badge-shine-sweep 1000ms cubic-bezier(0.16, 1, 0.3, 1) 160ms 1 both;
+}
+

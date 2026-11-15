@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Blue Lock: Episode Nagi Poster">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#041024"/>
+      <stop offset="55%" stop-color="#07224C"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <radialGradient id="glow6" cx="65%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#041024" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg6)"/>
+  <rect width="800" height="450" fill="url(#glow6)"/>
+  <g opacity="0.2" stroke="#38BDF8" stroke-width="2" fill="none">
+    <polygon points="520,60 660,140 660,300 520,380 380,300 380,140"/>
+    <polygon points="520,105 620,162 620,278 520,335 420,278 420,162"/>
+  </g>
+  <circle cx="520" cy="220" r="64" fill="#0B192E" stroke="#38BDF8" stroke-width="4"/>
+  <polygon points="520,174 554,199 541,239 499,239 486,199" fill="#38BDF8" opacity="0.9"/>
+  <path d="M120 360 L370 210 L260 360 Z" fill="#0EA5E9" opacity="0.28"/>
+  <path d="M580 120 L740 40 L670 190 Z" fill="#FACC15" opacity="0.22"/>
+</svg>
